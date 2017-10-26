@@ -9,14 +9,32 @@ body {
   margin: 40px;
 }
 
+
 .top-head {
+
+  margin-top: .25em;
+  margin-bottom: 0;
+  padding-bottom: 1px;
+  padding-top: 1px;
   background-color: black;
-  text-decoration-color: white;
-  font-family: comic, sans-serif, monospace;
+  /*text-decoration-color: white;*/
+  color: white;
+  font-family: Circular, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 30px;
   text-align: center;
 }
 
-.next-to {
+.top-list {
+  padding: 2px 3px;
+  font-weight: bolder;
+  color: rgba(255,255,255,1);
+  background-color: grey;
+  display: inline-block;
+  font-family: Circular, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+}
+
+.grid-guys {
+    display: inline-block;
     float: left;
     margin: 10px;
     border: 30px solid magenta;
