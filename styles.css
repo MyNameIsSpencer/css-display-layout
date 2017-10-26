@@ -24,18 +24,43 @@ body {
   text-align: center;
 }
 
+.navi {
+  text-align: center;
+}
+
 .top-list {
-  padding: 2px 3px;
+  text-decoration: none;
+  text-align: center;
+  margin: auto 2px;
+  padding: 4px 6px;
+  font-size: 20px;
   font-weight: bolder;
   color: rgba(255,255,255,1);
-  background-color: grey;
+  background-color: lightgrey;
   display: inline-block;
   font-family: Circular, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 }
 
 .grid-guys {
-    display: inline-block;
+    /*display: inline-block;*/
     float: left;
+    width: 30%;
     margin: 10px;
-    border: 30px solid magenta;
+    border: solid magenta;
+
+}
+
+.img-guys {
+  width: 100%;
+  margin: 0px 0px 10px;
+}
+
+.container-a {
+  display: inline-block;
+
+}
+
+.container-b {
+  display: inline-block;
+  background-color: yellow;
 }
