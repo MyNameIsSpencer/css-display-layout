@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fantasy, sans-serif, ariel;
+  padding: 30px;
+  border: 25px;
+  margin: 40px;
+}
+
+.top-head {
+  background-color: black;
+  text-decoration-color: white;
+  font-family: comic, sans-serif, monospace;
+  text-align: center;
+}
+
+.next-to {
+    float: left;
+    margin: 10px;
+    border: 30px solid magenta;
+}
